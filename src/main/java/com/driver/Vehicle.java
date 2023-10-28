@@ -5,7 +5,7 @@ public class Vehicle {
     private String name;
     private int currentSpeed;
     private int currentDirection;
-    private int capacity;
+
 
     public Vehicle(String name) {
         this.name=name;
@@ -38,9 +38,7 @@ public class Vehicle {
         return this.name;
     }
 
-    public int getCapacity() {
-        return this.capacity;
-    }
+
 
     public int getCurrentSpeed() {
         return currentSpeed;
