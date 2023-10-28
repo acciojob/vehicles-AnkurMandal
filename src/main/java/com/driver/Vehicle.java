@@ -34,11 +34,15 @@ public class Vehicle {
         return this.currentDirection;
     }
 
-    protected String getName() {
+    public String getName() {
         return this.name;
     }
 
-    protected int getCapacity() {
+    public int getCapacity() {
         return this.capacity;
+    }
+
+    public int getCurrentSpeed() {
+        return currentSpeed;
     }
 }
